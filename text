@@ -1,0 +1,263 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Navigation Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+
+  <nav>
+    <button onclick="showContent('home')">Home</button>
+    <button onclick="showContent('about')">About</button>
+    <button onclick="showContent('contact')">Contact</button>
+</nav>    <h2>Home</h2>
+
+
+  <div id="home" class="content active">
+    <p>Welcome to our homepage!</p>
+  </div>
+
+  <div id="about" class="content">
+    <h2>About</h2>
+    <p>We are a company that values excellence and innovation.</p>
+  </div>
+
+  <div id="contact" class="content">
+    <h2>Contact</h2>
+    <p>Contact us at info@example.com</p>
+  </div>
+
+  
+
+</body>
+</html>
+
+</head>
+<body>
+                    <title>Navigation bar</title>
+                    <style type="text/css">
+                  *{
+                             text-decoration: none;
+                     }
+                     .navbar{
+                             background: rgb(78, 161, 229);
+                             font-family: calibri;
+                             padding-right: 15px;
+                             padding-left: 15px;
+                      }
+                     .navdiv{
+                             display: flex;
+                             align-items: center;
+                             justify-content: space-between;
+                      }
+                     .logo a{
+                             font-size: 20px;
+                             font-weight: 600;
+                             color: white; 
+                      }
+                      li{
+                             list-style: none;
+                             display: inline-block;
+                      } 
+                      li a{
+                             color: white;
+                             font-size: 18px;
+                             font-weight: bold;
+                             margin-right: 25px;
+                      }
+                      Button {
+                             background-color:black;
+                             margin-left:10px;
+                             border-radius: 10px;
+                             width: 90px;
+                      }
+                      Button a{
+                             color:white;
+                             font-weight: bold; 
+                             font-size: 15px;
+                      }
+                    
+.img1{
+ width
+
+}
+              </style>  
+</head>
+<body>     
+         <nav class="navbar">
+                <div class="navdiv">
+                         <div class="logo"><a href="#">LOGO</a> </div>
+                     <head>
+                           <nav>
+                         <ul>
+                                 <li><a href="#">Home</a></li>
+                                 <li><a href="#">About</a></li>
+                                 <li><a href="#">Contact</a></li>
+                                 
+                         </ul>
+                 </div>
+         </div>
+            </body>
+       </html>
+<img src="C:\Users\Administrator\Desktop\Image1\image.jfif"  alt="class="img1">
+           </div>
+
+<img src=img3.png alt="alternative_text_here">
+
+
+ 
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>Contact Us</title>
+    <script src=https://cdn.tailwindcss.com></script>
+    <style>
+        /* Custom animations for uniqueness */
+        @keyframes fadeInUp {
+            From {
+                Opacity: 0;
+                Transform: translateY(20px);
+            }
+            To {
+                Opacity: 1;
+                Transform: translateY(0);
+            }
+        }
+        .fade-in-up {
+            Animation: fadeInUp 0.8s ease-out;
+        }
+        /* Responsive text sizing */
+        @media (max-width: 640px) {
+            .hero-text {
+                Font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body class=”bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen flex items-center justify-center p-4”>
+    <div class=”max-w-4xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden”>
+        <!—Hero Section with Image 
+        <div class=”relative”>
+            <img src=imageinternet.jpg alt=abstract background with interconected nodes presenting communication and networking in blue and purple gradients for a modernrn tect
+tech conract page" class="w-full h-64 object-cover">
+   
+
+                <h1 class=”hero-text text-4xl md:text-6xl font-bold text-white drop-shadow-lg fade-in-up”>
+                    Get In Touch
+                </h1>
+            </div>
+        </div>
+        
+        <!—Contact Form Section 
+        <div class=”p-8 md:p-12”>
+            <p class=”text-gray-600 mb-8 text-center fade-in-up delay-100”>
+                We’re here to help! Reach out with your questions, feedback, or ideas. Fill out the form below, and we’ll get back to you as soon as possible.
+            </p>
+            
+            <form id=”contactForm” class=”space-y-6 fade-in-up delay-200”>
+                <div class=”grid grid-cols-1 md:grid-cols-2 gap-6”>
+                    <div>
+                        <label for=”name” class=”block text-sm font-medium text-gray-700 mb-2”>Full Name</label>
+                        <input type=”text” id=”name” name=”name” required 
+                               Class=”w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 shadow-sm”
+                               Placeholder=”Your full name”>
+                    </div>
+                    <div>
+                        <label for=”email” class=”block text-sm font-medium text-gray-700 mb-2”>Email Address</label>
+                        <input type=”email” id=”email” name=”email” required 
+                               Class=”w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 shadow-sm”
+                               Placeholder=your.email@example.com>
+                    </div>
+                </div>
+                <div>
+                    <label for=”subject” class=”block text-sm font-medium text-gray-700 mb-2”>Subject</label>
+                    <input type=”text” id=”subject” name=”subject” required 
+                           Class=”w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 shadow-sm”
+                           Placeholder=”Brief subject of your message”>
+                </div>
+                <div>
+                    <label for=”message” class=”block text-sm font-medium text-gray-700 mb-2”>Message</label>
+                    <textarea id=”message” name=”message” rows=”5” required 
+                              Class=”w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300 shadow-sm resize-none”
+                              Placeholder=”Type your message here...”></textarea>
+                </div>
+                <button type=”submit” 
+                        Class=”w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2”>
+                    Send Message
+                </button>
+            </form>
+            
+            <!—Contact Info Section 
+            <div class=”mt-8 border-t pt-8 fade-in-up delay-300”>
+                <h2 class=”text-2xl font-bold text-gray-800 mb-4 text-center”>Other Ways to Contact</h2>
+                <div class=”grid grid-cols-1 sm:grid-cols-3 gap-6 text-center”>
+                    <div class=”flex flex-col items-center”>
+                        <img src=imagecall.jpg alt=”Red circular icon representing a telephone with a receiver and wave patterns for audio communication” 
+                        class=”w-16 h-16 rounded-full mb-3”>
+                ”>Call Us</h3>
+                        <p class=”text-gray-600”>+1 (555) 123-4567</p>
+                    </div>
+                    <div class=”flex flex-col items-center”>
+                        <img src=imagemessage.jpg alt=”Green circular icon with an envelope and pointer cursor symbolizing email sending” class=”w-16 h-16 rounded-full mb-3”>
+                        <h3 class=”font-semibold text-gray-800”>Email Us</h3>
+                        <p class=”text-gray-600”>hello@BvlgariJewellery.com</p>
+                    </div>
+                    <div class=”flex flex-col items-center”>
+                        <img src=imagelocation.jpg alt=”Purple circular icon with a map pin and location marker for physical address representation” class=”w-16 h-16 rounded-full mb-3”>
+                        <h3 class=”font-semibold text-gray-800”>Visit Us</h3>
+                        <p class=”text-gray-600”><br>BB1,Bongabong Oriental Mindoro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        Document.getElementById(‘contactForm’).addEventListener(‘submit’, function(e) {
+            e.preventDefault();
+            
+            // Simple validation and submission handling
+            Const name = document.getElementById(‘name’).value.trim();
+            Const email = document.getElementById(‘email’).value.trim();
+            Const subject = document.getElementById(‘subject’).value.trim();
+            Const message = document.getElementById(‘message’).value.trim();
+            
+            If (!name || !email || !subject || !message) {
+                Alert(‘Please fill in all fields.’);
+                Return;
+            }
+            
+            If (!/\S+@\S+\.\S+/.test(email)) {
+                Alert(‘Please enter a valid email address.’);
+                Return;
+            }
+            
+            // Simulate form submission (in a real app, you’d send to server)
+            Alert(‘Thank you for your message! We\’ll get back to you soon.’);
+            
+            // Reset form
+            This.reset();
+        });
+        
+        // Add some interactive elements for uniqueness
+        Document.querySelectorAll(‘input, textarea’).forEach(el => {
+            El.addEventListener(‘focus’, () => {
+                El.parentElement.classList.add(‘ring-2’, ‘ring-blue-500’);
+            });
+            El.addEventListener(‘blur’, () => {
+                El.parentElement.classList.remove(‘ring-2’, ‘ring-blue-500’);
+            });
+        });
+    </script>
+</body>
+</html>
+</content>
+</create_file>
+
+
+
+
